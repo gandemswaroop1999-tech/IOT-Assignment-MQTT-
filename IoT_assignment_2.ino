@@ -18,8 +18,8 @@
 #define MQTT_TOPIC_DISPLAY "esp32saru/cmd/display/fmt/json"
 
 // Add GPIO pins used to connect devices
-#define RGB_PIN 5 // GPIO pin the data line of RGB LED is connected to
-#define DHT_PIN 4 // GPIO pin the data line of the DHT sensor is connected to
+#define RGB_PIN 18 // GPIO pin the data line of RGB LED is connected to
+#define DHT_PIN 19 // GPIO pin the data line of the DHT sensor is connected to
 
 // Specify DHT11 (Blue) or DHT22 (White) sensor
 #define DHTTYPE DHT11
